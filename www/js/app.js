@@ -73,7 +73,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent': {
           templateUrl: 'templates/career.html',
-
+          controller: 'CareerCtrl'
         }
       }
     })

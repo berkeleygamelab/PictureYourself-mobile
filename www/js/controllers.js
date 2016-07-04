@@ -57,7 +57,7 @@ angular.module('starter.controllers', [])
   ];
 })
 .controller('CareerCtrl', function($scope, $stateParams) {
-  $scope.playlists = [
+  $scope.careers = [
     { title: 'College', id: 1 , image: 'img/college.jpg', occupations: ["Professor", "Adminstrator"]},
     { title: 'Medical', id: 2 , image: 'img/medical.jpg',  occupations: ["Sugeon", "Pediatrician"]},
     { title: 'Military', id: 3 , image: 'img/military.jpg', occupations: ["Air Force", "Navy"]},
