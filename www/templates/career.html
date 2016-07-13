@@ -3,18 +3,19 @@
     <div class="list card">
 
       <div class="item item-avatar">
-        <img src="mcfly.jpeg">
-      <h2>Marty McFly</h2>
-      <p>November 05, 1955</p>
+        <img src="{{occupation.image}}">
+      <h2>{{occupation}}</h2>
+      <p>{{occupation.title}}</p>
 
     </div>
 
   <div class="item item-body">
-    <img class="full-image" src="delorean.jpg">
-    <p>Their occupation is {{occupation}}</p>
+    <img class="full-image" src="{{occupation.image}}">
+    <p>{{occupation.bio}}</p>
+    <p>{{occupation.accomplishments}}</p>
     <p>
-      <a href="#" class="subdued">Comment1</a>
-      <a href="#" class="subdued">Comment2</a>
+      <a href="#" class="subdued">{{occupation.video}}</a>
+
     </p>
   </div>
 
