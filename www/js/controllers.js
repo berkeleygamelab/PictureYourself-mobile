@@ -78,7 +78,7 @@ angular.module('starter.controllers', [])
     var occupations = $scope.careers[i].occupations;
 
     for (var j = 0; j < occupations.length; j++) {
-      if ($stateParams.careerName == occupations[j]) {
+      if ($stateParams.careerName == occupations[j].id) {
         $scope.occupation = occupations[j];
       }
     }
