@@ -90,7 +90,7 @@ angular.module('starter.controllers', [])
     { title: 'Military', id: 3 , image: 'img/military.jpg', occupations: ["Air Force", "Navy"]},
     { title: 'Legal/Politics', id: 4 , image: 'img/legal.jpg', occupations: ["Lawyer", "Judge"]},
     { title: 'Business', id: 5 ,  image: 'img/business.jpg', occupations: ["Sales Associate", "Youtuber"]},
-    { title: 'Agriculture', id: 6 ,  image: 'img/agriculture.png', occupations:["Farmer", "Urban gardener"]},
+    { title: 'Agriculture', id: 6 ,  image: 'img/agriculture.png', occupations:[{name: "Peter Raven", id: 1, title: "Botanist", bio: "", accomplishments: "", video: "", image: ""}, "Urban gardener"]},
     { title: 'Communication', id: 7 ,  image: 'img/communication.jpeg', occupations:["Radio Host", "UN representative"]},
     { title: 'Engineering', id: 8 ,  image: 'img/engineering.jpeg', occupations:["Software Engineer", "Bioengineer"]},
     { title: 'Media & Entertainment', id: 9 ,  image: 'img/media.png', occupations:["Actor", "Clown"]},
