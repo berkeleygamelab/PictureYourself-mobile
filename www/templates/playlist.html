@@ -3,7 +3,7 @@
     <h1>Here are some occupations for {{career.title}}</h1>
     <ion-list>
       <a class="item" ng-repeat="occupation in career.occupations" href = "#/app/playlists/{{career.id}}/career/{{occupation.id}}">
-        {{occupation}}
+        {{occupation.title}}
       </a>
     </ion-list>
   </ion-content>
