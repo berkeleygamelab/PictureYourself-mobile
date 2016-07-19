@@ -1,5 +1,6 @@
 <ion-view view-title="Career">
   <ion-content>
+    <body>
     <div class="list card">
 
       <div class="item item-avatar">
@@ -14,12 +15,14 @@
     <p>{{occupation.bio}}</p>
     <p>{{occupation.accomplishments}}</p>
     <p>
-      <a href="#" class="subdued">{{occupation.video}}</a>
-
+      <a href="#" class="subdued">
+        <form action = {{occupation.video}}>
+        <input type = "submit" value = "Learn more">
+      </form> </a>
     </p>
   </div>
 
-</div>
-
+  </div>
+  </body>
   </ion-content>
 </ion-view>
